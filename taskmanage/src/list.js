@@ -60,13 +60,6 @@ class List extends Component {
 
 
     }
-
-    // componentDidUpdate(prevProps){
-    //     if(prevProps.todoChange!==this.props.todoChange)
-    //     this.fetchTask();
-    // }
-
-
     CheckboxChange = (item) => {
         axios.get("http://localhost:8080/taskcon/taskStatus/" + item.id)
             .then((res) => {
@@ -75,10 +68,6 @@ class List extends Component {
             })
 
     }
-
-
-
-
 
 
     render() {
@@ -134,17 +123,9 @@ class List extends Component {
                                             onChange={() => { this.CheckboxChange(item) }}
                                         />
 
-
-                                        {/* this.state.completedTask.includes(item.id) */}
                                         <span style={(item.status === 'complete') ? { textDecoration: 'line-through' } : { textDecoration: 'none' }} className="listText"
 
                                         >{item.task}    </span>
-
-
-
-
-
-
 
                                         <hr style={{ marginLeft: "10%" }} />
 
