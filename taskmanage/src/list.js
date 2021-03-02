@@ -6,16 +6,15 @@ import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 
 class List extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+  
+     state = {
 
             text: '',
             showText: false,
             task: [],
             status: '',
         }
-    }
+    
 
     componentDidMount() {
         this.fetchTask();
