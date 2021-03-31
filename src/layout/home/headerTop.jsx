@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class HeaderTop extends Component {
   render() {
     return (
-        <div className="header_top">
+     <>
+      <header className="header">
+      <div className="header_top">
         <div className="container">
             <ul className="contactinfo nav nav-pills">
                 <li>
@@ -12,9 +15,8 @@ export default class HeaderTop extends Component {
                 <li>
                     <i className="fa fa-envelope"></i> admin@real-web.pro
                 </li>
-            </ul>
-            {/* <!-- Social links --> */}
-            <ul className="social-icons nav navbar-nav">
+            </ul> 
+            <ul className="social-icons nav">
                 <li>
                     <a href="http://facebook.com" rel="nofollow" target="_blank">
                         <i className="fa fa-facebook"></i>
@@ -42,6 +44,11 @@ export default class HeaderTop extends Component {
                 </li>
             </ul>		</div>
     </div>
+
+
+    </header>
+    </>
+
     );
   }
 }

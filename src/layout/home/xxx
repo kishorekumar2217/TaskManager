@@ -1,0 +1,190 @@
+/* ****** header style*******/
+/* all elements(child div) are in singel row use display :flex */
+
+.header {
+    background-color:#2874f0;;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    height:5.5vmax;
+    margin-bottom: 0px;
+}
+.header_one{
+    margin: 0px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+   margin-left: 1vmax;
+}
+.header_one >img {
+    width: 100px;
+    object-fit:contain;
+}
+.header_two{
+    display: flex;
+    align-items:center;
+    background-color: white;
+    border-radius: 3px;
+}
+.header_two >input{
+    border:none;
+    outline: none;
+  width: 32vmax;
+    padding:10px 15px;
+    border-radius: 3px;
+  
+}
+.header_two >.MuiSvgIcon-root{
+    color: #2874f0;
+    padding: 5px;
+    font-size: 40px;
+   font-weight: bold;
+
+}
+.header_three > button{
+    border:none;
+    outline: none;
+    width: 9.3vmax;
+    color:#2874f0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+    cursor: pointer;
+    height:3vmax ;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.header_four {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   margin-left: 3vmax;
+
+}
+.header_four >span{
+    font-weight: 600;
+    color: white;
+}
+.header_four,.header_five
+>.MuiSvgIcon-root{
+    color:white;
+}
+.header_five{
+    display: flex;
+    align-items: center;
+    padding-right:120px ;
+}
+.header_five > span{
+    font-weight: 600;
+    color: white;
+}
+/* llogin */
+
+.Login{
+    display:flex;
+    align-items:center;
+    padding: 0px 7px ;
+    width: 15vmax;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: '500';
+
+
+}
+.Login >.MuiSvgIcon-root{
+    margin-right: 5px;
+   color: #2874f0;
+   font-size: 25px;
+   padding-left: 5px;
+    
+}
+.Logint{
+    display: grid;
+    align-items: center;
+    
+}
+
+.Logint >hr{
+    margin-top:0px;
+    margin-bottom: 0px;
+    
+
+    margin-left: -10px;
+    width:108.5%;
+    height: 0.5px;
+    background-color:rgb(233,233,233);
+    border :none;
+    position: relative;
+
+}
+.login:hover{
+    background-color: rgb(245, 243, 243);
+}
+  /* **** more style **** */
+  .more{
+    display:flex;
+    align-items:center;
+    padding: 0px 7px ;
+    width: 15vmax;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: '500';
+
+}
+.more >.MuiSvgIcon-root{
+    margin-right: 5px;
+   color: #2874f0;
+   font-size: 25px;
+   padding-left: 5px;
+  
+    
+}
+.moret{
+    display: grid;
+    align-items: center;
+    
+}
+.moret >hr{
+    margin-top:0px;
+    margin-bottom: 0px;
+    
+
+    margin-left: -10px;
+    width:108.5%;
+    height: 0.5px;
+    background-color:rgb(233,233,233);
+    border :none;
+    position: relative;
+
+}
+.more:hover{
+    background-color: rgb(245, 243, 243);
+}
+ /* ******nav bar style***** */
+ .Navhead{
+    background-color:#ffff;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    height: 5vmax;
+    border-bottom:5px;
+    box-shadow: 2px 2px 2px rgb(218, 217, 217);
+    margin-bottom: 9px;
+ }
+ .Home>span,.TopOffer>span,.Electronics>span,.Appliancess>span,.Fashion>span,.Mobiles >span,.Grocery >span{
+    font-size: 20px;
+    font-weight: 600;
+ 
+    text-decoration:none;
+}
+.link{
+    color: black;
+  }
+  .link:hover {
+     color: #00F;
+     text-decoration: none;
+
+  }

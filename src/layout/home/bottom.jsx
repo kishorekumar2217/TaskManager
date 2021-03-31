@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import loadjs from 'loadjs';
 
 export default class Bottam extends Component {
+    // componentDidMount(){
+   
+    //     loadjs(['../assets/js/plugins.js','../assets/js/main.js','../assets/js/gmap.js']);
+    //  }
   render() {
     return (
       <div > 
@@ -9,64 +15,64 @@ export default class Bottam extends Component {
         <div class="container">
             <div class="row">
                 <div class="companyinfo">
-                    <a href="index.html">
+                    <Link  to="/">
                         <img src="../assets/img/logo-b.png" alt="AllStore - MultiConcept eCommerce Responsive HTML5 Template"/>
                         AllStore - MultiConcept eCommerce Responsive HTML5 Template
-                    </a>
+                    </Link>
                 </div>
                 <div class="f-block-list">
                     <div class="f-block-wrap">
                         <div class="f-block">
-                            <a href="#" class="f-block-btn" data-id="#f-block-modal-1">
+                            <Link  to="#" class="f-block-btn" data-id="#f-block-modal-1">
                                 <div class="iframe-img">
-                                    <img src="http://placehold.it/300x127" alt="About us"/>
+                                    <img src="../assets/img/shop.jpg" alt="About us"/>
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-info-circle"></i>
                                 </div>
-                            </a>
+                            </Link>
                             <p class="f-info-ttl">About us</p>
                             <p>Shipping and payment information.</p>
                         </div>
                     </div>
                     <div class="f-block-wrap">
                         <div class="f-block">
-                            <a href="#" class="f-block-btn" data-id="#f-block-modal-2">
+                            <Link  to="#" class="f-block-btn" data-id="#f-block-modal-2">
                                 <div class="iframe-img">
-                                    <img src="http://placehold.it/300x127" alt="Ask questions"/>
+                                    <img src="../assets/img/qus.png" alt="Ask questions"/>
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
-                            </a>
+                            </Link>
                             <p class="f-info-ttl">Ask questions</p>
                             <p>We call back within 10 minutes</p>
                         </div>
                     </div>
                     <div class="f-block-wrap">
                         <div class="f-block">
-                            <a href="#" class="f-block-btn" data-id="#f-block-modal-3" data-content="<iframe width='853' height='480' src='https://www.youtube.com/embed/kaOVHSkDoPY?rel=0&amp;showinfo=0' allowfullscreen></iframe>">
+                            <Link  to="#" class="f-block-btn" data-id="#f-block-modal-3" data-content="<iframe width='853' height='480' src='https://www.youtube.com/embed/kaOVHSkDoPY?rel=0&amp;showinfo=0' allowfullscreen></iframe>">
                                 <div class="iframe-img">
-                                    <img src="http://placehold.it/300x127" alt="Video (2 min)"/>
+                                    <img src="../assets/img/about.jpg" alt="Video (2 min)"/>
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle"></i>
                                 </div>
-                            </a>
+                            </Link>
                             <p class="f-info-ttl">Video (2 min)</p>
                             <p>Watch a video about our store</p>
                         </div>
                     </div>
                     <div class="f-block-wrap">
                         <div class="f-block">
-                            <a href="#" class="f-block-btn" data-id="#f-block-modal-4">
+                            <Link  to="#" class="f-block-btn" data-id="#f-block-modal-4">
                                 <div class="iframe-img">
-                                    <img src="http://placehold.it/300x127" alt="Our address"/>
+                                    <img src="../assets/img/cart.jpg" alt="Our address"/>
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
-                            </a>
+                            </Link>
                             <p class="f-info-ttl">Our address</p>
                             <p>Spain, Madrid, 45</p>
                         </div>
@@ -74,7 +80,7 @@ export default class Bottam extends Component {
                 </div>
 
                 <div class="stylization f-block-modal f-block-modal-content" id="f-block-modal-1">
-                    <img class="f-block-modal-img" src="http://placehold.it/500x334" alt="About us"/>
+                    <img class="f-block-modal-img" src="../assets/img/21.jpg" alt="About us"/>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam natus iste ullam vero, tenetur ab ipsa consectetur deleniti officiis ex debitis incidunt alias voluptatum, maxime placeat dolores veniam sunt at atque velit, soluta. Neque ea alias quia provident molestias, ratione aut esse placeat beatae sequi sed laudantium. Unde animi nihil esse, repellendus exercitationem dicta harum ab labore, voluptates explicabo in, quidem dolorum voluptas!
                 </div>
                 <div class="stylization f-block-modal f-block-modal-callback" id="f-block-modal-2">
@@ -110,48 +116,48 @@ export default class Bottam extends Component {
                 <h3>
                     About us
                 </h3>
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="catalog-list.html">Catalog</a></li>
-                    <li><a href="elements.html">Elements</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                <ul class=" nav-pills nav-stacked">
+                    <li class="active"><Link to="/">Home</Link></li>
+                    <li><Link to="/cataloglist">Catalog</Link></li>
+                    <li><Link to="/element">Elements</Link></li>
+                    <li><Link to="/Mainblog">Blog</Link></li>
+                    <li><Link to="/Maincontact">Contacts</Link></li>
                 </ul>
             </div>
             <div class="f-menu">
                 <h3>
                     Shop
                 </h3>
-                <ul class="nav nav-pills nav-stacked">
-                    <li><a href="catalog-list.html">Women</a></li>
-                    <li><a href="catalog-list.html">Men</a></li>
-                    <li><a href="catalog-list.html">Kids</a></li>
-                    <li><a href="catalog-list.html">Shoes</a></li>
-                    <li><a href="catalog-list.html">Accessories</a></li>
+                <ul class=" nav-pills nav-stacked">
+                    <li><Link  to="catalog-list.html">Women</Link></li>
+                    <li><Link  to="catalog-list.html">Men</Link></li>
+                    <li><Link  to="catalog-list.html">Kids</Link></li>
+                    <li><Link  to="catalog-list.html">Shoes</Link></li>
+                    <li><Link  to="catalog-list.html">Accessories</Link></li>
                 </ul>
             </div>
             <div class="f-menu">
                 <h3>
                     Information
                 </h3>
-                <ul class="nav nav-pills nav-stacked">
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="blog.html">News</a></li>
-                    <li><a href="reviews.html">Reviews</a></li>
-                    <li><a href="blog.html">Articles</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                <ul class=" nav-pills nav-stacked">
+                    <li><Link  to="/blog">Blog</Link></li>
+                    <li><Link  to="blog.html">News</Link></li>
+                    <li><Link  to="reviews.html">Reviews</Link></li>
+                    <li><Link  to="blog.html">Articles</Link></li>
+                    <li><Link  to="/login">Contacts</Link></li>
                 </ul>
             </div>
             <div class="f-menu">
                 <h3>
                     Pages
                 </h3>
-                <ul class="nav nav-pills nav-stacked">
-                    <li><a href="contacts.html">About us</a></li>
-                    <li><a href="contacts.html">Delivery</a></li>
-                    <li><a href="contacts.html">Guarantees</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="404.html">Page 404</a></li>
+                <ul class="nav-pills nav-stacked">
+                    <li><Link  to="contacts.html">About us</Link></li>
+                    <li><Link  to="contacts.html">Delivery</Link></li>
+                    <li><Link  to="contacts.html">Guarantees</Link></li>
+                    <li><Link  to="contacts.html">Contacts</Link></li>
+                    <li><Link  to="404.html">Page 404</Link></li>
                 </ul>
             </div>
             <div class="f-subscribe">
@@ -166,41 +172,77 @@ export default class Bottam extends Component {
     </div>
 
     <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <ul class="social-icons nav navbar-nav">
+        {/* <div class="container">
+            <div >
+                <ul class="social-icons nav ">
                     <li>
-                        <a href="http://facebook.com/" rel="nofollow" target="_blank">
+                        <Link  to="http://facebook.com/" rel="nofollow" target="_blank">
                             <i class="fa fa-facebook"></i>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="http://google.com/" rel="nofollow" target="_blank">
+                        <Link  to="http://google.com/" rel="nofollow" target="_blank">
                             <i class="fa fa-google-plus"></i>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="http://twitter.com/" rel="nofollow" target="_blank">
+                        <Link  to="http://twitter.com/" rel="nofollow" target="_blank">
                             <i class="fa fa-twitter"></i>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="http://vk.com/" rel="nofollow" target="_blank">
+                        <Link  to="http://vk.com/" rel="nofollow" target="_blank">
                             <i class="fa fa-vk"></i>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="http://instagram.com/" rel="nofollow" target="_blank">
+                        <Link  to="http://instagram.com/" rel="nofollow" target="_blank">
                             <i class="fa fa-instagram"></i>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 <div class="footer-copyright">
-                    <i><a href="https://themeforest.net/user/real-web?ref=real-web">Real-Web</a></i> © Copyright 2017
+                    <i><Link  to="https://themeforest.net/user/real-web?ref=real-web">Real-Web</Link></i> © Copyright 2017
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
+    
+    <div class="header_top">
+    <div class="container">
+    <div class="footer-copyright">
+                    <i><a href="https://themeforest.net/user/real-web?ref=real-web">Real-Web</a></i> © Copyright 2017
+                </div>
+      
+        <ul class="social-icons nav ">
+            <li>
+                <a href="http://facebook.com" rel="nofollow" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://google.com" rel="nofollow" target="_blank">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com" rel="nofollow" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://vk.com" rel="nofollow" target="_blank">
+                    <i class="fa fa-vk"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://instagram.com" rel="nofollow" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+        </ul>		</div>
+</div>
+</div>
 
 </footer>
       

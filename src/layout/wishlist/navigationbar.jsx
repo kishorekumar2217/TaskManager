@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Switch, Route, Redirect, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class NavigationBar extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class componentName extends Component {
   render() {
@@ -11,14 +12,14 @@ export default class componentName extends Component {
 
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/378x300" alt="Sunt temporibus velit"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/1.jpg" alt="Sunt temporibus velit"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -45,7 +46,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Sunt temporibus velit</a>
+            <Link  to="product.html">Sunt temporibus velit</Link>
         </h3>
         <p class="prod-i-price">
             <b>$115</b>
@@ -53,14 +54,14 @@ export default class componentName extends Component {
     </div>
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/300x504" alt="Fuga impedit inciduntipsa"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/2.jpg" alt="Fuga impedit inciduntipsa"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -85,7 +86,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Fuga impedit inciduntipsa</a>
+            <Link  to="product.html">Fuga impedit inciduntipsa</Link>
         </h3>
         <p class="prod-i-price">
             <b>$80</b>
@@ -93,14 +94,14 @@ export default class componentName extends Component {
     </div>
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/358x300" alt="Iusto labore laudantium"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/3.jpg" alt="Iusto labore laudantium"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -134,7 +135,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Iusto labore laudantium</a>
+            <Link  to="product.html">Iusto labore laudantium</Link>
         </h3>
         <p class="prod-i-price">
             <b>$170</b>
@@ -142,14 +143,14 @@ export default class componentName extends Component {
     </div>
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/300x303" alt="Reprehenderit rerum"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/4.jpg" alt="Reprehenderit rerum"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -182,7 +183,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Reprehenderit rerum</a>
+            <Link  to="product.html">Reprehenderit rerum</Link>
         </h3>
         <p class="prod-i-price">
             <b>$210</b>
@@ -191,14 +192,14 @@ export default class componentName extends Component {
     </div>
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/300x366" alt="Nulla numquam obcaecati"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/5.jpg" alt="Nulla numquam obcaecati"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -223,7 +224,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Nulla numquam obcaecati</a>
+            <Link  to="product.html">Nulla numquam obcaecati</Link>
         </h3>
         <p class="prod-i-price">
             <b>$48</b>
@@ -231,14 +232,14 @@ export default class componentName extends Component {
     </div>
     <div class="prod-i">
         <div class="prod-i-top">
-            <a href="product.html" class="prod-i-img">
-            <img src="http://placehold.it/300x416" alt="Maxime molestias necessitatibus nobis"/></a>
+            <Link  to="product.html" class="prod-i-img">
+            <img src="../assets/img/realated/6.jpg" alt="Maxime molestias necessitatibus nobis"/></Link>
             <p class="prod-i-info">
-                <a href="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></a>
-                <a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-                <a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+                <Link  to="#" class="prod-i-favorites"><span>Remove from Wishlist</span><i class="fa fa-remove"></i></Link>
+                <Link  to="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></Link>
+                <Link class="prod-i-compare"  to="#"><span>Compare</span><i class="fa fa-bar-chart"></i></Link>
             </p>
-            <a href="#" class="prod-i-buy">Add to cart</a>
+            <Link  to="#" class="prod-i-buy">Add to cart</Link>
             <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
             <div class="prod-i-properties">
@@ -267,7 +268,7 @@ export default class componentName extends Component {
             </div>
         </div>
         <h3>
-            <a href="product.html">Maxime molestias necessitatibus nobis</a>
+            <Link  to="product.html">Maxime molestias necessitatibus nobis</Link>
         </h3>
         <p class="prod-i-price">
             <b>$95</b>

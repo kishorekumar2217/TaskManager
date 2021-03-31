@@ -5,7 +5,7 @@ function pad(n) {
 }
 
 $(document).ready(function () {
-
+    
     // Single Product Tabs
     $('.prod-tabs li').on('click', 'a', function () {
         if ($(this).hasClass('active') || $(this).attr('data-prodtab') == '')
@@ -426,7 +426,25 @@ $(document).ready(function () {
             $(this).removeClass("redborder");
     });
 
-
+  // Product Images Slider
+  if ($('.prod-slider-car').length > 0) {
+    $('.prod-slider-car').each(function () {
+        $(this).bxSlider({
+            pagerCustom: $(this).parents('.prod-slider-wrap').find('.prod-thumbs-car'),
+            adaptiveHeight: true,
+            infiniteLoop: false,
+        });
+        $(this).parents('.prod-slider-wrap').find('.prod-thumbs-car').bxSlider({
+            slideWidth: 5000,
+            slideMargin: 8,
+            moveSlides: 1,
+            infiniteLoop: false,
+            minSlides: 5,
+            maxSlides: 5,
+            pager: false,
+        });
+    });         
+}
 });
 
 

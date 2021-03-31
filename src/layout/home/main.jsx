@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Slider from './slider';
+import TemSlider from './temSlider';
+
 import PopularProduct from './PopularProduct';
 import Banner from './banner';
 import SpecialOffer from './specialoffer';
@@ -11,12 +13,15 @@ import  QuickView from './quickview';
 
 
 
+
 export default class Main extends Component {
+
   render() {
     return (
       <div> 
       
-      <Slider/>
+      {/* <Slider/> */}
+      <TemSlider/>
       <PopularProduct/>
       <Banner/>
       <SpecialOffer/>

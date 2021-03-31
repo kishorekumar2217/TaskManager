@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Testimonials extends Component {
   render() {
@@ -49,63 +50,63 @@ export default class Testimonials extends Component {
                 <div class="swiper-container reviewscar-thumbs">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Aureole Jayde"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Aureole Jayde</a></h3>
+                            <img src="../assets/img/team/1.jpg" alt="Aureole Jayde"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Aureole Jayde</Link></h3>
                             <p class="reviewscar-post">Director</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Benjy Darrin"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Benjy Darrin</a></h3>
+                            <img src="../assets/img/team/2.jpg" alt="Benjy Darrin"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Benjy Darrin</Link></h3>
                             <p class="reviewscar-post">Designer</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Jeni Margie"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Jeni Margie</a></h3>
+                            <img src="../assets/img/team/3.jpg" alt="Jeni Margie"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Jeni Margie</Link></h3>
                             <p class="reviewscar-post">Developer</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Edweena Chelsea"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Edweena Chelsea</a></h3>
+                            <img src="../assets/img/team/4.jpg" alt="Edweena Chelsea"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Edweena Chelsea</Link></h3>
                             <p class="reviewscar-post">Manager</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Sean Rudolph"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Sean Rudolph</a></h3>
+                            <img src="../assets/img/team/5.jpg" alt="Sean Rudolph"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Sean Rudolph</Link></h3>
                             <p class="reviewscar-post">Designer</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Brigham Murphy"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Brigham Murphy</a></h3>
+                            <img src="../assets/img/team/6.jpg" alt="Brigham Murphy"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Brigham Murphy</Link></h3>
                             <p class="reviewscar-post">Director</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Barrie Roderick"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Barrie Roderick</a></h3>
+                            <img src="../assets/img/team/7.jpg" alt="Barrie Roderick"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Barrie Roderick</Link></h3>
                             <p class="reviewscar-post">Developer</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="John Doe"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">John Doe</a></h3>
+                            <img src="../assets/img/team/8.jpg" alt="John Doe"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">John Doe</Link></h3>
                             <p class="reviewscar-post">Manager</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Shirlee Annabel"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Shirlee Annabel</a></h3>
+                            <img src="../assets/img/team/9.jpg" alt="Shirlee Annabel"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Shirlee Annabel</Link></h3>
                             <p class="reviewscar-post">Developer</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Lettice Alyce"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Lettice Alyce</a></h3>
+                            <img src="../assets/img/team/10.jpg" alt="Lettice Alyce"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Lettice Alyce</Link></h3>
                             <p class="reviewscar-post">Director</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Meriel Glory"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Meriel Glory</a></h3>
+                            <img src="../assets/img/team/11.jpg" alt="Meriel Glory"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Meriel Glory</Link></h3>
                             <p class="reviewscar-post">Manager</p>
                         </div>
                         <div class="swiper-slide">
-                            <img src="http://placehold.it/120x120" alt="Janene Alaina"/>
-                            <h3 class="reviewscar-ttl"><a href="reviews.html">Janene Alaina</a></h3>
+                            <img src="../assets/img/team/12.jpg" alt="Janene Alaina"/>
+                            <h3 class="reviewscar-ttl"><Link  to="reviews.html">Janene Alaina</Link></h3>
                             <p class="reviewscar-post">Manager</p>
                         </div>
                     </div>
